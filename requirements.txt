@@ -6,10 +6,5 @@ opencv-python-headless==4.8.1.78
 Pillow==10.2.0
 gspread==5.12.0
 oauth2client==4.1.3
-datetime
-os
-cv2
-pathlib
-sys
-tempfile
+
 
