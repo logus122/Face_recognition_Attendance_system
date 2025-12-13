@@ -1,0 +1,28 @@
+# 1. Make sure you're in your repository root folder
+cd /path/to/your/face_recognition_attendance_system
+
+# 2. Create the .python-version file
+echo "3.11" > .python-version
+
+# 3. Add, commit, and push
+git add .python-version
+git commit -m "Set Python version to 3.11"
+git push origin main
+```
+
+## **What Your Repository Should Look Like:**
+```
+face_recognition_attendance_system/
+├── .python-version          ← NEW FILE (just contains "3.11")
+├── .streamlit/
+│   └── config.toml         
+├── requirements.txt
+├── UI.py
+├── (all your other existing files - don't change anything)
+```
+
+## **The `.python-version` File Contents:**
+
+The file should contain **only one line**:
+```
+3.11
